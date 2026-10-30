@@ -2,7 +2,7 @@
     "name": "we-go/wp-go-blocks",
     "description": "ACF block.json blocks: one folder per block, per-post-type variants, per-block assets, blocks drawn from templates. Rendered with the engine the theme names: Twig through Timber (TimberRenderer), or any other.",
     "type": "library",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "license": "proprietary",
     "require": {
         "php": ">=8.1"
