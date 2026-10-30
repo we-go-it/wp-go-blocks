@@ -1,0 +1,7 @@
+{
+  "apiVersion": 3,
+  "name": "acf/wgt-renamed",
+  "title": "WGT Renamed",
+  "category": "wgt-blocks",
+  "acf": { "blockVersion": 3, "mode": "preview" }
+}

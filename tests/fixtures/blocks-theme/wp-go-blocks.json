@@ -1,0 +1,8 @@
+{
+  "category": "wgt-blocks",
+  "blocks": "/blocks/",
+  "entries": { "main": "app/site.js" },
+  "icon": "icon.svg",
+  "preview_name": "wgt-preview-{slug}",
+  "shop": "a key the package doesn't know"
+}

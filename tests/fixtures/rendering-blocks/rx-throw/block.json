@@ -1,0 +1,7 @@
+{
+  "apiVersion": 3,
+  "name": "acf/rx-throw",
+  "title": "RX rx-throw",
+  "category": "text",
+  "acf": { "blockVersion": 3, "mode": "preview", "renderCallback": "WpGoBlocks::render_block" }
+}

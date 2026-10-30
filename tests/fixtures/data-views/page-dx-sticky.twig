@@ -1,0 +1,6 @@
+{#- The content as a drawn block's `content`, after a block of its own. -#}
+{% extends 'data-base.twig' %}
+
+{% block content %}
+  {{ wp_go_render_block('dx-columns', { side: 'right' }, { content: wp_go_render_block('dx-card', { title: 'Lead' }) ~ post.content }) }}
+{% endblock %}

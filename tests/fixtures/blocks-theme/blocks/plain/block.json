@@ -1,0 +1,7 @@
+{
+  "apiVersion": 3,
+  "name": "acf/wgt-plain",
+  "title": "WGT Plain",
+  "category": "wgt-blocks",
+  "acf": { "blockVersion": 3, "mode": "preview" }
+}

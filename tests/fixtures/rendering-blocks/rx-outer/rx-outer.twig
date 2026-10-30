@@ -1,0 +1,2 @@
+{#- draws rx-card inside itself, handing it a context -#}
+<div class="rx-outer">{{ is_preview ? 'preview' : 'page' }}|{{ wp_go_render_block('rx-card', { title: inner_title ?? 'Inner' }, { context: { handed: 'from-outer' } }) }}</div>

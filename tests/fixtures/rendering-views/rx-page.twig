@@ -1,0 +1,4 @@
+{#- a view with a body block, for TimberRenderer::body() -#}
+<header>Outside</header>
+{% block content %}Body {{ name }}{{ rx_render_data ?? '' }}{% endblock %}
+<footer>Outside</footer>

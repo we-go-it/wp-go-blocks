@@ -1,0 +1,28 @@
+/* Appearance → Blocks: its list and its dialog (src/Core/block-settings-screen.php). */
+
+.wg-blocks__table td { vertical-align: middle; }
+.wg-blocks__table .description { display: block; margin-top: 2px; }
+.wg-blocks__table code { font-size: 12px; }
+.wg-blocks__row { cursor: pointer; }
+.wg-blocks__col-preview { width: 136px; }
+.wg-blocks__col-actions { width: 40px; }
+.wg-blocks__thumb { display: block; width: 120px; height: 68px; object-fit: contain; background: #f6f7f7; border: 1px solid #dcdcde; border-radius: 2px; }
+.wg-blocks__thumb--none { display: flex; align-items: center; justify-content: center; color: #787c82; font-size: 12px; background: #f6f7f7; box-sizing: border-box; }
+.wg-blocks__actions { text-align: right; }
+.wg-blocks__actions .button-link { display: inline-flex; align-items: center; height: 20px; padding: 0 4px; color: #787c82; text-decoration: none; }
+.wg-blocks__actions .button-link:hover, .wg-blocks__actions .button-link:focus { color: #2271b1; }
+.wg-blocks__modal { width: min(560px, calc(100vw - 32px)); padding: 0; border: 0; border-radius: 4px; box-shadow: 0 8px 32px rgb(0 0 0 / .25); }
+.wg-blocks__modal::backdrop { background: rgb(0 0 0 / .4); }
+.wg-blocks__modal form { padding: 16px 20px 20px; }
+.wg-blocks__modal h2 { margin: 0 0 4px; }
+.wg-blocks__name { margin: 0 0 16px; }
+.wg-blocks__field { margin-bottom: 16px; }
+.wg-blocks__field > .description { display: block; margin-top: 4px; }
+.wg-blocks__label { display: block; margin-bottom: 4px; font-weight: 600; }
+.wg-blocks__image { display: block; width: 240px; height: 135px; object-fit: contain; background: #f6f7f7; border: 1px solid #dcdcde; border-radius: 2px; }
+.wg-blocks__none { color: #787c82; }
+.wg-blocks__clear { margin-left: 8px; }
+.wg-blocks__modal fieldset { margin: 0 0 16px; padding: 0; border: 0; }
+.wg-blocks__types { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 16px; margin-bottom: 6px; }
+.wg-blocks__modal fieldset > .description { display: block; margin-top: 6px; }
+.wg-blocks__modal-actions { display: flex; gap: 8px; justify-content: flex-end; }

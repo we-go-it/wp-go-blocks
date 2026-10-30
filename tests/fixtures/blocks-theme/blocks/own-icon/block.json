@@ -1,0 +1,8 @@
+{
+  "apiVersion": 3,
+  "name": "acf/wgt-own-icon",
+  "title": "WGT Own Icon",
+  "category": "wgt-blocks",
+  "icon": "star-filled",
+  "acf": { "blockVersion": 3, "mode": "preview", "postTypes": ["page", "wgt_classic"] }
+}

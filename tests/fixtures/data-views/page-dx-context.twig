@@ -1,0 +1,9 @@
+{#- A block drawn for another's `context`, and printed by the view too; the
+    content handed in a context value. -#}
+{% extends 'data-base.twig' %}
+
+{% block content %}
+  {% set cta = wp_go_render_block('dx-card', { title: 'CTA' }) %}
+  {{ wp_go_render_block('dx-host', { title: 'Outer' }, { context: { cta: cta, c: post.content, wrapped: '<p>' ~ wp_go_render_block('dx-card', { title: 'Wrapped' }) ~ '</p>' } }) }}
+  {{ cta }}
+{% endblock %}

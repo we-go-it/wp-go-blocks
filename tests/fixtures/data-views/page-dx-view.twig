@@ -1,0 +1,9 @@
+{#- Blocks around the content, the content printed twice: placed at the first. -#}
+{% extends 'data-base.twig' %}
+
+{% block content %}
+  {{ wp_go_render_block('dx-card', { title: 'Intro' }) }}
+  <div class="body">{{ post.content }}</div>
+  {{ wp_go_render_block('dx-card', { title: 'Outro' }) }}
+  {{ post.content }}
+{% endblock %}

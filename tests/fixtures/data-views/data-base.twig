@@ -1,0 +1,3 @@
+{#- The data tests' base view: a block drawn around the body, which isn't the page's. -#}
+<header>{{ wp_go_render_block('dx-card', { title: 'Header' }) }}</header>
+<main>{% block content %}{% endblock %}</main>

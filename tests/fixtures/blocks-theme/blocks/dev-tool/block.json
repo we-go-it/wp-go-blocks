@@ -1,0 +1,7 @@
+{
+  "apiVersion": 3,
+  "name": "acf/wgt-dev-tool",
+  "title": "WGT Dev Tool",
+  "category": "wgt-blocks",
+  "acf": { "blockVersion": 3, "mode": "preview" }
+}

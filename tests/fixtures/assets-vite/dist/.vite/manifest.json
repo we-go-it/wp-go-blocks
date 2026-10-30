@@ -1,0 +1,72 @@
+{
+  "src/main.js": {
+    "file": "assets/main-M1.js",
+    "src": "src/main.js",
+    "isEntry": true,
+    "imports": ["_vendor-alpine-A1.js", "_shared-S1.js"],
+    "css": ["assets/main-M1.css"]
+  },
+  "src/other.js": {
+    "file": "assets/other-O1.js",
+    "src": "src/other.js",
+    "isEntry": true,
+    "imports": ["_vendor-zod-Z1.js"],
+    "css": ["assets/other-O1.css"]
+  },
+  "_vendor-alpine-A1.js": {
+    "file": "assets/vendor-alpine-A1.js",
+    "name": "vendor-alpine"
+  },
+  "_shared-S1.js": {
+    "file": "assets/shared-S1.js",
+    "name": "shared",
+    "imports": ["_vendor-alpine-A1.js"],
+    "css": ["assets/shared-S1.css"]
+  },
+  "blocks/hero/hero.scss": {
+    "file": "assets/hero-H1.css",
+    "src": "blocks/hero/hero.scss",
+    "isEntry": true
+  },
+  "blocks/hero/hero.js": {
+    "file": "assets/hero-H1.js",
+    "src": "blocks/hero/hero.js",
+    "isEntry": true,
+    "imports": ["_vendor-alpine-A1.js"]
+  },
+  "blocks/tabs/tabs.js": {
+    "file": "assets/tabs-T1.js",
+    "src": "blocks/tabs/tabs.js",
+    "isEntry": true,
+    "imports": ["_tabs-chunk-C1.js"],
+    "dynamicImports": ["_lazy-L1.js"]
+  },
+  "_tabs-chunk-C1.js": {
+    "file": "assets/tabs-chunk-C1.js",
+    "name": "tabs-chunk",
+    "imports": ["_vendor-alpine-A1.js"],
+    "css": ["assets/tabs-chunk-C1.css"]
+  },
+  "_lazy-L1.js": {
+    "file": "assets/lazy-L1.js",
+    "name": "lazy",
+    "css": ["assets/lazy-L1.css"]
+  },
+  "form/form.js": {
+    "file": "assets/form-F1.js",
+    "src": "form/form.js",
+    "isEntry": true,
+    "imports": ["_vendor-zod-Z1.js", "_shared-S1.js"],
+    "css": ["assets/form-F1.css"]
+  },
+  "_vendor-zod-Z1.js": {
+    "file": "assets/vendor-zod-Z1.js",
+    "name": "vendor-zod",
+    "imports": ["_vendor-zod-core-K1.js"]
+  },
+  "_vendor-zod-core-K1.js": {
+    "file": "assets/vendor-zod-core-K1.js",
+    "name": "vendor-zod-core",
+    "css": ["assets/zod-core-K1.css"]
+  }
+}

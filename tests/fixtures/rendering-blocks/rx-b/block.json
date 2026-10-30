@@ -1,0 +1,7 @@
+{
+  "apiVersion": 3,
+  "name": "acf/rx-b",
+  "title": "RX rx-b",
+  "category": "text",
+  "acf": { "blockVersion": 3, "mode": "preview", "renderCallback": "WpGoBlocks::render_block" }
+}

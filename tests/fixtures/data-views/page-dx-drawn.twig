@@ -1,0 +1,7 @@
+{#- What the PHP template drew before render(): `top` printed, `unused` not. -#}
+{% extends 'data-base.twig' %}
+
+{% block content %}
+  {{ top }}
+  {{ post.content }}
+{% endblock %}

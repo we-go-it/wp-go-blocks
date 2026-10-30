@@ -1,0 +1,8 @@
+{#- One other post's content, printed outside a loop, before the page's own. -#}
+{% extends 'data-base.twig' %}
+
+{% block content %}
+  <aside>{{ other.content }}</aside>
+  {{ wp_go_render_block('dx-card', { title: 'Mid' }) }}
+  {{ post.content }}
+{% endblock %}

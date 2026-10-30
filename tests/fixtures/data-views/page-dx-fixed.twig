@@ -1,0 +1,6 @@
+{#- A fixed layout: the content never printed. -#}
+{% extends 'data-base.twig' %}
+
+{% block content %}
+  {{ wp_go_render_block('dx-card', { title: 'Fixed' }) }}
+{% endblock %}

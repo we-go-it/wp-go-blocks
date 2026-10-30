@@ -1,0 +1,7 @@
+{
+  "apiVersion": 3,
+  "name": "acf/rx-self",
+  "title": "RX rx-self",
+  "category": "text",
+  "acf": { "blockVersion": 3, "mode": "preview", "renderCallback": "WpGoBlocks::render_block" }
+}

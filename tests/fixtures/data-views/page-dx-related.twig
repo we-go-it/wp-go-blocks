@@ -1,0 +1,10 @@
+{#- A list of other posts, their content printed before and after the page's
+    own: markup, thrown away. Timber's loop sets each post up. -#}
+{% extends 'data-base.twig' %}
+
+{% block content %}
+  {% for other in others %}<aside>{{ other.content }}</aside>{% endfor %}
+  {{ wp_go_render_block('dx-card', { title: 'Mid' }) }}
+  {{ post.content }}
+  {% for other in others %}<aside>{{ other.content }}</aside>{% endfor %}
+{% endblock %}
