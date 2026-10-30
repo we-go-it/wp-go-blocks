@@ -1,0 +1,5 @@
+# left out of what Composer and yarn install from a tag (git archive)
+/tests export-ignore
+/yarn.lock export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore
